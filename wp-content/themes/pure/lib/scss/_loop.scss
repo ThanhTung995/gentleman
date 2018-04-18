@@ -1,0 +1,237 @@
+.loop__item {
+	margin-bottom: $spacing;
+}
+
+.loop__thumbnail {
+	margin-bottom: $spacing;
+	img {
+		width: 100%;
+	}
+}
+
+.loop--list {
+	.loop__insider {
+		@include media($xs) {
+			display: flex;
+		}
+	}
+	.loop__thumbnail {
+		@include media($xs) {
+			margin-bottom: 0;
+			width: 40%;
+			margin-right: $spacing;
+			flex-shrink: 0;
+		}
+	}
+	.loop__content {
+		@include media($xs) {
+			display: none;
+		}
+		@include media(667px) {
+			display: block;
+		}
+	}
+}
+
+.loop--grid {
+	$spacing: $loop-spacing;
+	$small-spacing: $spacing/2;
+	@include media($xs) {
+		margin-left: -5px;
+		margin-right: -5px;
+		display: flex;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	@include media($sm) {
+		margin-left: -$small-spacing;
+		margin-right: -$small-spacing;
+	}
+	&.products {
+		margin-left: -5px;
+		margin-right: -5px;
+		@include media($sm) {
+			margin-left: -$small-spacing;
+			margin-right: -$small-spacing;
+		}
+		display: flex;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		.loop__item {
+			margin: 0 5px 10px;
+			width: calc(50% - 10px);
+			@include media($sm) {
+				width: calc(50% - #{$spacing});
+				margin: 0 $small-spacing $spacing;
+			}
+		}
+	}
+	.loop__item {
+		@include media($xs) {
+			margin: 0 5px 10px;
+			width: calc(50% - 10px);
+		}
+		@include media($sm) {
+			width: calc(50% - #{$spacing});
+			margin: 0 $small-spacing $spacing;
+		}
+	}
+
+	.elementor-widget-container .columns-1 & .loop__item,
+	&.loop--columns-1 .loop__item {
+		width: 100%; //calc(100% - #{$spacing});
+		@include media($xs) {
+			width: 100%; //calc(100% - #{$spacing});
+		}
+	}
+
+	.elementor-widget-container .columns-3 & .loop__item,
+	&.loop--columns-3 .loop__item {
+		@include media($sm) {
+			width: calc(33.3% - #{$spacing});
+		}
+	}
+
+	.elementor-widget-container .columns-4 & .loop__item,
+	&.loop--columns-4 .loop__item {
+		@include media($sm) {
+			width: calc(25% - #{$spacing});
+		}
+	}
+
+	.elementor-widget-container .columns-5 & .loop__item,
+	&.loop--columns-5 .loop__item {
+		@include media($md) {
+			width: calc(20% - #{$spacing});
+		}
+	}
+	.elementor-widget-container .columns-6 & .loop__item,
+	&.loop--columns-6 .loop__item {
+		@include media($sm) {
+			width: calc(33.3% - #{$spacing});
+		}
+		@include media($md) {
+			width: calc(66% - #{$spacing});
+		}
+	}
+}
+
+.no-padding .loop--grid,
+.no-padding.loop--grid {
+	@include media($xs) {
+		margin-left: 0;
+		margin-right: 0;
+		display: flex;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.loop__item {
+		margin: 0;
+		@include media($xs) {
+			width: 50%;
+			margin: 0;
+		}
+	}
+	&.products {
+		margin-left: 0;
+		margin-right: 0;
+		.loop__item {
+			width: 50%;
+			margin: 0;
+		}
+	}
+
+	&.loop--columns-1 .loop__item {
+		@include media($xs) {
+			width: 100%
+		}
+	}
+
+	&.loop--columns-3 .loop__item {
+		@include media($sm) {
+			width: 33.3%
+		}
+	}
+
+	&.loop--columns-4 .loop__item {
+		@include media($sm) {
+			width: 25%
+		}
+	}
+
+	&.loop--columns-5 .loop__item {
+		@include media($md) {
+			width: 20%
+		}
+	}
+	&.loop--columns-6 .loop__item {
+		@include media($sm) {
+			width: 33.3%
+		}
+		@include media($md) {
+			width: 66%
+		}
+	}
+}
+
+.no-padding .elementor-widget-container {
+	.columns-1 .loop--grid .loop__item {
+		@include media($xs) {
+			width: 100%
+		}
+	}
+	.columns-3 .loop--grid .loop__item {
+		@include media($sm) {
+			width: 33.3%
+		}
+	}
+	.columns-4 .loop--grid .loop__item {
+		@include media($sm) {
+			width: 25%
+		}
+	}
+
+	.columns-5 .loop--grid .loop__item {
+		@include media($md) {
+			width: 20%
+		}
+	}
+	.columns-6 .loop--grid .loop__item {
+		@include media($sm) {
+			width: 33.3%
+		}
+		@include media($md) {
+			width: 66%
+		}
+	}
+}

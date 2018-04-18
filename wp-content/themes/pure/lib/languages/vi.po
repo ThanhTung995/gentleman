@@ -1,0 +1,708 @@
+# Copyright (C) 2018 Pure
+# This file is distributed under the same license as the Pure package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pure\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wp-content/themes/pure/404.php:31
+msgid "Page not found"
+msgstr "Trang không tìm thấy"
+
+#: wp-content/themes/pure/404.php:34
+msgid "Sorry, the page you requested can not be found!"
+msgstr "Xin lỗi, chúng tôi không thể tìm thấy trang web bạn yêu cầu!"
+
+#: wp-content/themes/pure/404.php:41
+msgid "<i class=\"far fa-caret-left\"></i> Back to home"
+msgstr "<i class=“far fa-caret-left”></i> Quay lại trang chủ"
+
+#: wp-content/themes/pure/404.php:59
+msgid "Page"
+msgstr "Trang"
+
+#: wp-content/themes/pure/404.php:80
+msgid "News"
+msgstr "Tin tức"
+
+#: wp-content/themes/pure/404.php:96
+msgid "Categories"
+msgstr "Chuyên mục"
+
+#: wp-content/themes/pure/comments.php:27
+msgid "Comments are closed."
+msgstr "Bình luận đã đóng."
+
+#: wp-content/themes/pure/comments.php:41
+msgid "Comments"
+msgstr "Bình luận"
+
+#: wp-content/themes/pure/comments.php:47
+msgid "%d comments"
+msgstr "%d bình luận"
+
+#: wp-content/themes/pure/page-blank.php:2
+msgid "Blank Page"
+msgstr "Trang trắng"
+
+#: wp-content/themes/pure/searchform.php:16
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Tìm kiếm &hellip;"
+
+#: wp-content/themes/pure/lib/init.php:50
+msgid "Primary Menu"
+msgstr "Menu chính"
+
+#: wp-content/themes/pure/lib/init.php:51
+msgid "Mobile Menu"
+msgstr "Menu trên di động"
+
+#: wp-content/themes/pure/lib/customizer/code.php:14
+msgid "Code"
+msgstr "Code"
+
+#: wp-content/themes/pure/lib/customizer/code.php:21
+msgid "Google Tag Manager ID (GTM-XXXX)"
+msgstr "Google Tag Manager ID (GTM-XXXX)"
+
+#: wp-content/themes/pure/lib/customizer/code.php:22
+msgid ""
+"We recommend using Google Tag Manager to manage tag and custom script of you "
+"website."
+msgstr ""
+"Chúng tôi khuyến khích bạn sử dụng Google Tag Manager để quản lý các đoạn mã "
+"trên website của bạn."
+
+#: wp-content/themes/pure/lib/customizer/code.php:30
+msgid "Code before </head>"
+msgstr "Code trước thẻ </head>"
+
+#: wp-content/themes/pure/lib/customizer/code.php:38
+msgid "Code before </body>"
+msgstr "Code trươcs thẻ </body>"
+
+#: wp-content/themes/pure/lib/customizer/code.php:45
+msgid "Google Analytics code"
+msgstr "Mã Google Analytics"
+
+#: wp-content/themes/pure/lib/customizer/code.php:60
+msgid "Livechat code"
+msgstr "Mã livechat"
+
+#: wp-content/themes/pure/lib/customizer/code.php:75
+msgid "Facebook Page ID"
+msgstr "Facebook Page ID"
+
+#: wp-content/themes/pure/lib/customizer/code.php:83
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: wp-content/themes/pure/lib/customizer/config.php:20
+msgid "VietMoz Site"
+msgstr "VietMoz Site"
+
+#: wp-content/themes/pure/lib/customizer/footer.php:14
+msgid "Footer"
+msgstr "Chân trang"
+
+#: wp-content/themes/pure/lib/customizer/footer.php:21
+msgid "Footer BG"
+msgstr "Nền chân trang"
+
+#: wp-content/themes/pure/lib/customizer/footer.php:35
+msgid "Footer Text Color"
+msgstr "Màu chữ chân trang"
+
+#: wp-content/themes/pure/lib/customizer/footer.php:50
+msgid "Footer Heading Color"
+msgstr "Màu chữ heading chân trang"
+
+#: wp-content/themes/pure/lib/customizer/footer.php:65
+msgid "Footer Link Color"
+msgstr "Màu link chân trang"
+
+#: wp-content/themes/pure/lib/customizer/footer.php:80
+msgid "Footer Link Hover Color"
+msgstr "Màu link chân trang khi di chuột lên"
+
+#: wp-content/themes/pure/lib/customizer/footer.php:95
+msgid "Footer Text Size"
+msgstr "Cỡ chữ chân trang"
+
+#: wp-content/themes/pure/lib/customizer/footer.php:111
+msgid "Footer Heading Size"
+msgstr "Cỡ chữ heading chân trang"
+
+#: wp-content/themes/pure/lib/customizer/header.php:14
+msgid "Header"
+msgstr "Đầu trang"
+
+#: wp-content/themes/pure/lib/customizer/header.php:21
+msgid "Header Height"
+msgstr "Chiều cao đầu trang"
+
+#: wp-content/themes/pure/lib/customizer/header.php:40
+msgid "Desktop Logo"
+msgstr "Logo khi xem web trên máy tính"
+
+#: wp-content/themes/pure/lib/customizer/header.php:53
+msgid "Desktop Logo Width"
+msgstr "Chiều rộng"
+
+#: wp-content/themes/pure/lib/customizer/header.php:68
+msgid "Mobile Logo"
+msgstr "Logo khi xem web trên thiết bị di động"
+
+#: wp-content/themes/pure/lib/customizer/header.php:81
+msgid "Mobile Logo Width"
+msgstr "Chiều rộng"
+
+#: wp-content/themes/pure/lib/customizer/header.php:96
+msgid "Top Left"
+msgstr "Nội dung topbar trái"
+
+#: wp-content/themes/pure/lib/customizer/header.php:104
+msgid "Top Right"
+msgstr "Nội dung topbar phải"
+
+#: wp-content/themes/pure/lib/customizer/info.php:14
+msgid "Infomation"
+msgstr "Thông tin website"
+
+#: wp-content/themes/pure/lib/customizer/info.php:21
+msgid "Company name"
+msgstr "Tên công ty"
+
+#: wp-content/themes/pure/lib/customizer/info.php:28
+msgid "Company Description"
+msgstr "Mô tả công ty"
+
+#: wp-content/themes/pure/lib/customizer/info.php:35
+msgid "Hotline"
+msgstr "Hotline"
+
+#: wp-content/themes/pure/lib/customizer/info.php:48
+msgid "Work Time"
+msgstr "Giờ làm việc"
+
+#: wp-content/themes/pure/lib/customizer/info.php:61
+msgid "Telephone"
+msgstr "Điện thoại"
+
+#: wp-content/themes/pure/lib/customizer/info.php:68
+msgid "Email"
+msgstr "Email"
+
+#: wp-content/themes/pure/lib/customizer/info.php:75
+msgid "Street Address"
+msgstr "Địa chỉ"
+
+#: wp-content/themes/pure/lib/customizer/info.php:82
+msgid "District"
+msgstr "Quận"
+
+#: wp-content/themes/pure/lib/customizer/info.php:89
+msgid "City"
+msgstr "Thành phố"
+
+#: wp-content/themes/pure/lib/customizer/info.php:96
+msgid "Facebook"
+msgstr "Facebook"
+
+#: wp-content/themes/pure/lib/customizer/info.php:103
+msgid "Youtube"
+msgstr "Youtube"
+
+#: wp-content/themes/pure/lib/customizer/info.php:110
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: wp-content/themes/pure/lib/customizer/info.php:117
+msgid "Instagram"
+msgstr "Instagram"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:15
+msgid "Styling"
+msgstr "Giao diện"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:22
+msgid "Primary Color"
+msgstr "Màu chính"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:63
+msgid "Secondary Color"
+msgstr "Màu phụ"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:100
+msgid "Text Color"
+msgstr "Màu chữ"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:129
+msgid "Heading Color"
+msgstr "Màu heading"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:154
+msgid "Border Color"
+msgstr "Màu viền"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:185
+msgid "Meta Color"
+msgstr "Màu thông tin"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:214
+msgid "Primary BG"
+msgstr "Nền chính"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:239
+msgid "Secondary BG"
+msgstr "Nền phụ"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:264
+msgid "Button Height"
+msgstr "Chiều cao nút"
+
+#: wp-content/themes/pure/lib/customizer/styling.php:279
+msgid "Button Radius"
+msgstr "Bo viền nút"
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:18
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:23
+msgid "Single"
+msgstr "Chi tiết sản phẩm"
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:30
+msgid "Add to cart text"
+msgstr "Nhãn nút mua hàng"
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:44
+msgid "Purchase help link"
+msgstr "Link hướng dẫn mua hàng"
+
+#: wp-content/themes/pure/lib/functions/formatting.php:77
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận đang được kiểm duyệt."
+
+#: wp-content/themes/pure/lib/functions/formatting.php:86
+msgid "<i class=\"%3$s\"></i> %1$s, %2$s"
+msgstr "<i class=\"%3$s\"></i> %1$s, %2$s"
+
+#: wp-content/themes/pure/lib/functions/formatting.php:92,
+#: wp-content/themes/pure/lib/views/post.php:116
+msgid "Edit"
+msgstr "Sửa"
+
+#: wp-content/themes/pure/lib/functions/formatting.php:101
+msgid "<i class=\"far fa-reply\"></i> Reply"
+msgstr "<i class=“far fa-reply”></i> Trả lời"
+
+#: wp-content/themes/pure/lib/functions/general.php:278
+msgid "Mini cart"
+msgstr "Giỏ hàng mini"
+
+#: wp-content/themes/pure/lib/functions/general.php:290
+msgid "Related Products"
+msgstr "Sản phẩm liên quan"
+
+#: wp-content/themes/pure/lib/functions/general.php:297
+msgid "Add to cart"
+msgstr "Mua hàng"
+
+#: wp-content/themes/pure/lib/functions/markup.php:290,
+#: wp-content/themes/pure/lib/views/sidebar.php:30
+msgid "Primary Sidebar"
+msgstr "Sidebar chính"
+
+#: wp-content/themes/pure/lib/functions/markup.php:309,
+#: wp-content/themes/pure/lib/functions/widgetize.php:66,
+#: wp-content/themes/pure/lib/views/sidebar.php:39
+msgid "Secondary Sidebar"
+msgstr "Sidebar phụ"
+
+#: wp-content/themes/pure/lib/functions/markup.php:328
+msgid "Shop Sidebar"
+msgstr "Shop Sidebar"
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:61
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:62
+msgid "Primary sidebar area."
+msgstr "Sidebar chính."
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:67
+msgid "Secondary sidebar area. Not every theme support this."
+msgstr "Sidebar phụ. Một số giao diện sẽ không hỗ trợ sidebar này."
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:100,
+#: wp-content/themes/pure/lib/views/footer.php:70
+msgid "Footer %d"
+msgstr "Chân trang %d"
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:101
+msgid "Footer %d widget area."
+msgstr "Widget của chân trang %d."
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:124
+msgid ""
+"This is the %s. You can add content to this area by visiting your <a href="
+"\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+"Đây là %s. Bạn có thể thêm các block nội dung vào khu vực này tại <a "
+"href=“%s”>Widgets</a>."
+
+#: wp-content/themes/pure/lib/modules/featured-post.php:59
+msgid " views"
+msgstr " lượt xem"
+
+#: wp-content/themes/pure/lib/modules/post-views-counter.php:58
+msgid "Views"
+msgstr "Lượt xem"
+
+#: wp-content/themes/pure/lib/modules/post-views-counter.php:101
+msgid "| Views: "
+msgstr "| Views: "
+
+#: wp-content/themes/pure/lib/shortcodes/post.php:41
+msgid "ago"
+msgstr "trước"
+
+#: wp-content/themes/pure/lib/views/footer.php:108
+msgid ""
+"<div class=\"copyright-content\">Copyright &copy; <span itemprop="
+"\"copyrightYear\">%1$s</span> <span itemprop=\"copyrightHolder\" itemscope "
+"itemtype=\"https://schema.org/Person\"><a href=\"%4$s\" title=\"%2$s\" "
+"itemprop=\"name\">%2$s</a></span>. Design by <a href=\"%3$s\" title=\"Web "
+"Design by VietMoz\">VietMoz</a>.</div>"
+msgstr ""
+"<div class=\"copyright-content\">Bản quyền &copy; <span itemprop="
+"\"copyrightYear\">%1$s</span> <span itemprop=\"copyrightHolder\" itemscope "
+"itemtype=\"https://schema.org/Person\"><a href=\"%4$s\" title=\"%2$s\" "
+"itemprop=\"name\">%2$s</a></span>. Thiết kế bởi <a href=\"%3$s\" "
+"title=“Thiết kế web bởi VietMoz\">VietMoz</a>.</div>"
+
+#: wp-content/themes/pure/lib/views/global.php:39
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: wp-content/themes/pure/lib/views/global.php:41
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: wp-content/themes/pure/lib/views/global.php:45
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm: %s"
+
+#: wp-content/themes/pure/lib/views/global.php:47
+msgid "Error 404: Page not found!"
+msgstr "Lỗi 404: Trang không tìm thấy!"
+
+#: wp-content/themes/pure/lib/views/menu.php:63
+msgid "Close menu"
+msgstr "Đóng menu"
+
+#: wp-content/themes/pure/lib/views/post.php:85
+msgid "by "
+msgstr "bởi "
+
+#: wp-content/themes/pure/lib/views/post.php:122,
+#: wp-content/themes/pure/lib/modules/gallery/views/archive.php:82
+msgid "Read more"
+msgstr "Xem thêm"
+
+#: wp-content/themes/pure/lib/views/post.php:134
+msgid "Nothing found."
+msgstr "Không tìm thấy."
+
+#: wp-content/themes/pure/lib/views/post.php:168
+msgid "Pages:"
+msgstr "Trang:"
+
+#: wp-content/themes/pure/lib/views/post.php:181
+msgid "Previous page"
+msgstr "Trang trước"
+
+#: wp-content/themes/pure/lib/views/post.php:182
+msgid "Next page"
+msgstr "Trang sau"
+
+#: wp-content/themes/pure/lib/views/post.php:269
+msgid "Related Posts"
+msgstr "Bài viết liên quan"
+
+#: wp-content/themes/pure/lib/views/post.php:426
+msgid "Name: John Doe"
+msgstr "Tên: Nguyễn Văn A"
+
+#: wp-content/themes/pure/lib/views/post.php:432
+msgid "Email: name@email.com"
+msgstr "Email: name@gmail.com"
+
+#: wp-content/themes/pure/lib/views/post.php:441
+msgid "Website: https://domain.com"
+msgstr "Trang web: https://domain.com"
+
+#: wp-content/themes/pure/lib/views/post.php:462
+msgid "Type your comments.."
+msgstr "Nội dung bình luận.."
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:18
+msgctxt "Post Type General Name"
+msgid "Galleries"
+msgstr "Album ảnh"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:19
+msgctxt "Post Type Singular Name"
+msgid "Gallery"
+msgstr "Album ảnh"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:20,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:21
+msgid "Gallery"
+msgstr "Album ảnh"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:22,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:22
+msgid "Item Archives"
+msgstr "Item Archives"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:23,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:23
+msgid "Item Attributes"
+msgstr "Item Attributes"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:24,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:88,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:24
+msgid "Parent Item:"
+msgstr "Parent Item:"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:25,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:86,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:25
+msgid "All Items"
+msgstr "Tất cả"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:26,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:90,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:26
+msgid "Add New Item"
+msgstr "Thêm mới"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:27,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:27
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:28,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:28
+msgid "New Item"
+msgstr "Slide mới"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:29,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:91,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:29
+msgid "Edit Item"
+msgstr "Sửa"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:30,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:92,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:30
+msgid "Update Item"
+msgstr "Cập nhật"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:31,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:93,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:31
+msgid "View Item"
+msgstr "Xem"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:32,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:32
+msgid "View Items"
+msgstr "Xem"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:33,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:33
+msgid "Search Item"
+msgstr "Tìm kiếm"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:34,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:34
+msgid "Not found"
+msgstr "Không tìm thấy"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:35,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:35
+msgid "Not found in Trash"
+msgstr "Không tìm thấy trong thùng rác"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:36,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:36
+msgid "Featured Image"
+msgstr "Ảnh đại diện"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:37,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:37
+msgid "Set featured image"
+msgstr "Đặt ảnh đại diện"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:38,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:38
+msgid "Remove featured image"
+msgstr "Xoá ảnh đại diện"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:39,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:39
+msgid "Use as featured image"
+msgstr "Dùng làm ảnh đại diện"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:40,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:40
+msgid "Insert into item"
+msgstr "Chèn"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:41,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:41
+msgid "Uploaded to this item"
+msgstr "Tải lên cho mục này"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:42,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:101,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:42
+msgid "Items list"
+msgstr "Danh sách"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:43,
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:102,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:43
+msgid "Items list navigation"
+msgstr "Điều hướng danh sách"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:44,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:44
+msgid "Filter items list"
+msgstr "Lọc"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:70
+msgid "gallery"
+msgstr "gallery"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:83
+msgctxt "Taxonomy General Name"
+msgid "Gallery Categories"
+msgstr "Chuyên mục hình ảnh"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:84
+msgctxt "Taxonomy Singular Name"
+msgid "Gallery Category"
+msgstr "Chuyên mục hình ảnh"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:85
+msgid "Gallery Category"
+msgstr "Chuyên mục hình ảnh"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:87
+msgid "Parent Item"
+msgstr "Mục cha"
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:89
+msgid "New Item Name"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:94
+msgid "Separate items with commas"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:95
+msgid "Add or remove items"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:96
+msgid "Choose from the most used"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:97
+msgid "Popular Items"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:98
+msgid "Search Items"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:99
+msgid "Not Found"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:100
+msgid "No items"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:113
+msgid "gallery-category"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/options.php:142
+msgid ""
+"User this shortcode in post/page to display slider: <code>[pure_nivo_slider "
+"id=%d]</code>"
+msgstr ""
+"Sử dụng shortcode này trong bài viết hoặc trang để hiển thị slide: "
+"<code>[pure_nivo_slider id=%d]</code>"
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:18
+msgctxt "Post Type General Name"
+msgid "Slides"
+msgstr "Slides"
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:19
+msgctxt "Post Type Singular Name"
+msgid "Slide"
+msgstr "Slide"
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:20,
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:21
+msgid "Nivo Slider"
+msgstr "Nivo Slider"
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:47
+msgid "Slide"
+msgstr "Slide"
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:48
+msgid "Nivo Slider with beautiful transition."
+msgstr "Nivo Slider với nhiều hiệu ứng đẹp mắt."
+
+#~ msgid "Color"
+#~ msgstr "Màu sắc"
+
+#~ msgid "Button"
+#~ msgstr "Nút"
+
+#~ msgid "Try search our website"
+#~ msgstr "Tìm kiếm"
+
+#~ msgid "Home"
+#~ msgstr "Trang chủ"

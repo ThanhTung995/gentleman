@@ -1,0 +1,90 @@
+.site-header{
+  background-color: #033043;
+
+  .site-title{
+    margin-right: 38px !important;
+  }
+
+  .menu-bar{
+    border-left: solid 1px #0e4157;
+    border-right: solid 1px #0e4157;
+    color: #FFF;
+    font-size: 0px;
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+    cursor: pointer;
+    margin-right: 14px !important;
+    a{
+      padding-right: 9px !important;
+      &:after{
+        display: none !important;
+      }
+    }
+
+    svg{
+      font-size: 25px;
+      padding-right: 0px !important;
+    }
+    .sub-menu{
+      li{
+        font-size: 25px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-right: 0px !important;
+      }
+      a{
+        padding: 9px 30px !important;
+        height:auto !important;
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .site-navigation{
+    flex-grow: 1;
+    li{
+      a{
+        color: #fff;
+        &:hover{
+          color: #dba727;
+        }
+      }
+      .sub-menu{
+        background: #033043;
+      }
+
+    }
+  }
+
+  .search-form{
+    height: 53px;
+    background-color: #07222e;
+    margin-right: 27px;
+    .search-field{
+      height: 53px;
+      background: none;
+      border: none;
+      color: #9eb7c1;
+      &::placeholder{
+        color: #9eb7c1;
+      }
+    }
+    .search-submit{
+      background: none;
+      box-shadow: none;
+      outline: none;
+      border:1px solid #07222e;
+    }
+  }
+}
+
+.pure-woocommerce-mini-cart-icon span.cart-counter-wrapper{
+  width: 20px;
+  height: 20px;
+  background-color: #dba727 !important;
+  font-size: 12px;
+  border: none;
+  margin-top: 10px;
+  position: absolute;
+  left: 25px;
+}

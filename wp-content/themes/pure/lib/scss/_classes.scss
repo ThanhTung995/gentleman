@@ -1,0 +1,340 @@
+.mg-0 {
+	margin: 0;
+}
+
+.pd-0 {
+	padding: 0;
+}
+
+@for $i from 0 through 10 {
+	.mg#{$i*10} {
+		margin: #{$i*10}px !important;
+	}
+	.mgt#{$i*10} {
+		margin-top: #{$i*10}px !important;
+	}
+	.mgb#{$i*10} {
+		margin-bottom: #{$i*10}px !important;
+	}
+	.mgtb#{$i*10} {
+		margin-top: #{$i*10}px !important;
+		margin-bottom: #{$i*10}px !important;
+	}
+	.mglr#{$i*10} {
+		margin-left: #{$i*10}px !important;
+		margin-right: #{$i*10}px !important;
+	}
+	body:not(.rtl) .mgl#{$i*10} {
+		margin-left: #{$i*10}px !important;
+	}
+	body:not(.rtl) .mgr#{$i*10} {
+		margin-right: #{$i*10}px !important;
+	}
+
+	.pd#{$i*10} {
+		padding: #{$i*10}px !important;
+	}
+	.pdt#{$i*10} {
+		padding-top: #{$i*10}px !important;
+	}
+	.pdb#{$i*10} {
+		padding-bottom: #{$i*10}px !important;
+	}
+	.pdtb#{$i*10} {
+		padding-top: #{$i*10}px !important;
+		padding-bottom: #{$i*10}px !important;
+	}
+	.pdlr#{$i*10} {
+		padding-left: #{$i*10}px !important;
+		padding-right: #{$i*10}px !important;
+	}
+	.pdl#{$i*10} {
+		padding-left: #{$i*10}px !important;
+	}
+	.pdr#{$i*10} {
+		padding-right: #{$i*10}px !important;
+	}
+}
+
+.clear, .clearfix {
+	@include pure-clearfix;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+.pure-flex-space {
+	flex-grow: 1;
+}
+
+.color-primary-color {
+	color: $primary-color;
+}
+
+.color-secondary-color {
+	color: $secondary-color;
+}
+
+.color-primary-color--before:before {
+	color: $primary-color;
+}
+
+.color-secondary-color--before:before {
+	color: $secondary-color;
+}
+
+.color-primary-color--after:after {
+	color: $primary-color;
+}
+
+.color-secondary-color--after:after {
+	color: $secondary-color;
+}
+
+.color-border-color {
+	color: $border-color;
+}
+
+.color-text-color {
+	color: $text-color;
+}
+
+.color-heading-color {
+	color: $heading-color;
+}
+
+.color-primary-bg {
+	color: $primary-bg;
+}
+
+.color-secondary-bg {
+	color: $secondary-bg;
+}
+
+.bg-primary-color,
+.bg-primary-color--after:after,
+.bg-primary-color--before:before {
+	background-color: $primary-color;
+}
+
+.bg-secondary-color {
+	background-color: $secondary-color;
+}
+
+.bg-secondary-color--before:before {
+	background-color: $secondary-color;
+}
+
+.bg-secondary-color--after:after {
+	background-color: $secondary-color;
+}
+
+.bg-border-color {
+	background-color: $border-color;
+}
+
+.bg-text-color {
+	background-color: $text-color;
+}
+
+.bg-heading-color,
+.bg-heading-color--before:before,
+.bg-heading-color--after:after {
+	background-color: $heading-color;
+}
+
+.bg-primary-bg {
+	background-color: $primary-bg;
+}
+
+.bg-secondary-bg {
+	background-color: $secondary-bg;
+}
+
+.color-primary-color--hover:hover {
+	color: $primary-color;
+}
+
+.color-secondary-color--hover:hover {
+	color: $secondary-color;
+}
+
+.color-primary-color--before--hover:hover:before {
+	color: $primary-color;
+}
+
+.color-secondary-color--before--hover:hover:before {
+	color: $secondary-color;
+}
+
+.color-primary-color--after--hover:hover:after {
+	color: $primary-color;
+}
+
+.color-secondary-color--after--hover:hover:after {
+	color: $secondary-color;
+}
+
+.color-border-color--hover:hover {
+	color: $border-color;
+}
+
+.color-text-color--hover:hover {
+	color: $text-color;
+}
+
+.color-heading-color--hover:hover {
+	color: $heading-color;
+}
+
+.color-primary-bg--hover:hover {
+	color: $primary-bg;
+}
+
+.color-secondary-bg--hover:hover {
+	color: $secondary-bg;
+}
+
+.bg-primary-color--hover:hover {
+	background-color: $primary-color;
+}
+
+.bg-secondary-color--hover:hover {
+	background-color: $secondary-color;
+}
+
+.bg-primary-color--after--hover:hover:after {
+	background-color: $primary-color;
+}
+
+.bg-secondary-color--after--hover:hover:after {
+	background-color: $secondary-color;
+}
+
+.bg-primary-color--before--hover:hover:before {
+	background-color: $primary-color;
+}
+
+.bg-secondary-color--before--hover:hover:before {
+	background-color: $secondary-color;
+}
+
+.bg-border-color--hover:hover {
+	background-color: $border-color;
+}
+
+.bg-text-color--hover:hover {
+	background-color: $text-color;
+}
+
+.bg-heading-color--hover:hover {
+	background-color: $heading-color;
+}
+
+.bg-primary-bg--hover:hover {
+	background-color: $primary-bg;
+}
+
+.bg-secondary-bg--hover:hover {
+	background-color: $secondary-bg;
+}
+
+.bg-meta-color {
+	background-color: $meta-color;
+}
+
+.bg-meta-color--hover:hover {
+	background-color: $meta-color;
+}
+
+.color-meta-color {
+	color: $meta-color;
+}
+
+.color-meta-color--hover:hover {
+	color: $meta-color;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.ttu {
+	text-transform: uppercase;
+}
+
+.db {
+	display: block;
+}
+
+.dib {
+	display: inline-block;
+}
+
+.light, .fw300 {
+	font-weight: 300 !important;
+}
+
+.bold, .fw700 {
+	font-weight: 700 !important;
+}
+
+.fw900 {
+	font-weight: 900 !important;
+}
+
+.border {
+	border: 1px solid $border-color;
+}
+
+.border-top {
+	border-top: 1px solid $border-color;
+}
+
+.border-bottom {
+	border-bottom: 1px solid $border-color;
+}
+
+.border-right {
+	border-right: 1px solid $border-color;
+}
+
+.border-left {
+	border-left: 1px solid $border-color;
+}

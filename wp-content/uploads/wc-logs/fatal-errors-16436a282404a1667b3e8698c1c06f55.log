@@ -1,0 +1,275 @@
+2018-04-16T09:47:34+00:00 CRITICAL Uncaught Error: Call to undefined function pure_entry_thumbnail() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:145
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-settings.php(424): include()
+#1 C:\xampp\htdocs\gentleman\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gentleman\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gentleman\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gentleman\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-04-16T09:47:50+00:00 CRITICAL Uncaught Error: Call to undefined function pure_entry_thumbnail() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:145
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-settings.php(424): include()
+#1 C:\xampp\htdocs\gentleman\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gentleman\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gentleman\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown
+
+2018-04-16T09:48:43+00:00 CRITICAL Uncaught Error: Call to undefined function pure_entry_thumbnail() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:145
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-settings.php(424): include()
+#1 C:\xampp\htdocs\gentleman\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gentleman\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gentleman\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gentleman\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-04-17T03:00:24+00:00 CRITICAL Uncaught Error: Call to undefined function pure() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:279
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-settings.php(424): include()
+#1 C:\xampp\htdocs\gentleman\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gentleman\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gentleman\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gentleman\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-04-17T03:16:57+00:00 CRITICAL Uncaught Error: Call to a member function get_attribute() on null in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\woocommerce\archive-product.php:107
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#4 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\woocommerce\archive-product.php(132): pure()
+#5 C:\xampp\htdocs\gentleman\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\gentleman\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\gentleman\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown
+
+2018-04-17T03:19:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_display_product_attributes(), 0 passed in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php on line 177 and exactly 1 expected in C:\xampp\htdocs\gentleman\wp-content\plugins\woocommerce\includes\wc-template-functions.php:2754
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php(177): wc_display_product_attributes()
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\woocommerce\archive-product.php(113): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#6 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Ar
+
+2018-04-17T03:33:30+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:178
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\woocommerce\archive-product.php(113): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\woocommerce\archive-product.ph
+
+2018-04-17T05:55:36+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in C:\xampp\htdocs\gentleman\wp-content\plugins\woocommerce\includes\wc-template-functions.php:2757
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php(196): wc_display_product_attributes(NULL)
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#2 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\woocommerce\archive-product.php(86): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#6 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\gentleman\wp-content\themes\pure\l
+
+2018-04-17T08:28:12+00:00 CRITICAL Uncaught Error: Call to undefined function prin_r() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:223
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(130): pure()
+
+2018-04-17T08:34:34+00:00 CRITICAL Cannot redeclare wc_attribute_label() (previously declared in C:\xampp\htdocs\gentleman\wp-content\plugins\woocommerce\includes\wc-attribute-functions.php:130)
+
+2018-04-17T08:41:08+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:217
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templat
+
+2018-04-17T08:41:28+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:210
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templat
+
+2018-04-17T08:41:30+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:210
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templat
+
+2018-04-17T08:41:49+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:217
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templat
+
+2018-04-17T08:51:36+00:00 CRITICAL Uncaught Error: Call to undefined function acme_make_product_attribute() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:243
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-pro
+
+2018-04-17T08:54:24+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:218
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(130): pur
+
+2018-04-17T09:18:33+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_all_attributes() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:228
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.p
+
+2018-04-17T09:21:02+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_all_attributes() in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:228
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.php(86): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_archive_product_loop('')
+#5 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\gentleman\wp-content\themes\pure\lib\framework.php(46): do_action('pure_loop')
+#8 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\archive-product.p
+
+2018-04-17T10:29:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php on line 210 and at least 2 expected in C:\xampp\htdocs\gentleman\wp-includes\plugin.php:554
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php(210): remove_action('woocommerce_pro...')
+#1 C:\xampp\htdocs\gentleman\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gentleman\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gentleman\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gentleman\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-04-17T10:29:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php on line 210 and at least 2 expected in C:\xampp\htdocs\gentleman\wp-includes\plugin.php:554
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php(210): remove_action('woocommerce_pro...')
+#1 C:\xampp\htdocs\gentleman\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gentleman\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gentleman\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\gentleman\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\gentleman\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown
+
+2018-04-17T15:50:25+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on null in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\content-single-product.php(76): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\template.php(690): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\gentleman\wp-content\plugins\woocommerce\includes\wc-core-functions.php(180): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\single-product.php(63): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_single_prod
+
+2018-04-17T15:50:58+00:00 CRITICAL Uncaught Error: Call to a member function is_in_stock() on null in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): {closure}('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\content-single-product.php(76): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\gentleman\wp-includes\template.php(690): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\gentleman\wp-content\plugins\woocommerce\includes\wc-core-functions.php(180): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\gentleman\wp-content\plugins\pure-woocommerce\templates\single-product.php(63): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): pure_single_prod
+
+2018-04-18T09:36:33+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on null in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\inc\ajax\ajax_product_filter.php:24
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): product_filter_features('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-admin\admin-ajax.php(97): do_action('wp_ajax_ajax_pr...')
+#4 {main}
+  thrown
+
+2018-04-18T09:36:38+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on null in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\inc\ajax\ajax_product_filter.php:24
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): product_filter_features('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-admin\admin-ajax.php(97): do_action('wp_ajax_ajax_pr...')
+#4 {main}
+  thrown
+
+2018-04-18T09:36:42+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on null in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\inc\ajax\ajax_product_filter.php:24
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): product_filter_features('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-admin\admin-ajax.php(97): do_action('wp_ajax_ajax_pr...')
+#4 {main}
+  thrown
+
+2018-04-18T09:36:52+00:00 CRITICAL Uncaught Error: Call to a member function get_sale_price() on null in C:\xampp\htdocs\gentleman\wp-content\themes\pure-gentleman\inc\ajax\ajax_product_filter.php:24
+Stack trace:
+#0 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(286): product_filter_features('')
+#1 C:\xampp\htdocs\gentleman\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\gentleman\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\gentleman\wp-admin\admin-ajax.php(97): do_action('wp_ajax_ajax_pr...')
+#4 {main}
+  thrown
+

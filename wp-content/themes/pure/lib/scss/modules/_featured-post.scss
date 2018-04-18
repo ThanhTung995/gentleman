@@ -1,0 +1,28 @@
+.featured-post {
+	text-align: center;
+	position: relative;
+	padding-top: 46.6%;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 1.5*$spacing;
+	.inside {
+		@include align(cc);
+	}
+	&:before {
+		background: rgba(#000, 0.5);
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		content: '';
+	}
+	.info {
+		font-size:  16px;
+		margin-bottom: $spacing;
+	}
+	h3 {
+		font-size: 32px;
+	}
+}

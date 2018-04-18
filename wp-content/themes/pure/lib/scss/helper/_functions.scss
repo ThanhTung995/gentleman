@@ -1,0 +1,33 @@
+@function strip-unit($number) {
+	@if type-of($number) == 'number' and not unitless($number) {
+		@return $number / ($number * 0 + 1);
+	}
+
+	@return $number;
+}
+
+@function px($number) {
+	@return strip-unit( $number ) + 0px;
+}
+
+@function ms($number) {
+	@return strip-unit( $number ) + 0ms;
+}
+
+@function map-deep-get($map, $keys...) {
+	@each $key in $keys {
+		$map: map-get($map, $key);
+	}
+	@return $map;
+}
+
+// Not function for Libsass compatibility
+// https://github.com/sass/libsass/issues/368
+@function is-not($value) {
+	@return if($value, false, true);
+}
+
+// Checks if a number is even
+@function is-even($int) {
+	@return $int % 2 == 0;
+}

@@ -1,0 +1,8 @@
+.pswp__button {
+	border: none !important;
+	&:hover {
+		background: transparent;
+		transform: none;
+		box-shadow: none;
+	}
+}

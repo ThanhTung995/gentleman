@@ -1,0 +1,176 @@
+// Media mixin. Min width value by default.
+@mixin media($query: $feature $value) {
+	@if length($query) == 1 {
+		@media screen and (min-width: nth($query, 1)) {
+			@content;
+		}
+	} @else {
+		$loop-to: length($query);
+		$media-query: "screen and ";
+
+		@if is-not(is-even(length($query))) {
+			$loop-to: $loop-to - 1;
+		}
+
+		$i: 1;
+		@while $i <= $loop-to {
+			$media-query: $media-query + "(" + nth($query, $i) + ": " + nth($query, $i + 1) + ") ";
+
+			@if ($i + 1) != $loop-to {
+				$media-query: $media-query + "and ";
+			}
+
+			$i: $i + 2;
+		}
+
+		@media #{$media-query} {
+			@content;
+		}
+	}
+}
+
+@mixin align( $option ) {
+	@if $option == "rc" {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	} @else if $option == "lc" {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	} @else if $option == "ct" {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	} @else {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate3d(-50%, -50%, 0);
+	}
+}
+
+@mixin pure-clearfix {
+	&::before,
+	&::after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+}
+
+@mixin retina($path, $cap: 2, $size: auto auto, $extras: null) {
+
+	/*
+	 * Set a counter and get the length of the image path.
+	 */
+	$position: -1;
+	$strpath: '#{$path}';
+	$length: str-length($strpath);
+
+	/*
+	 * Loop ver the image path and figure out the
+	 * position of the dot where the extension begins.
+	 */
+	@for $i from $length through $length - 10{
+		@if $position == -1 {
+			$char : str-slice($strpath, $i, $i);
+			@if str-index($char, ".") == 1 {
+				$position: $i;
+			}
+		}
+	}
+
+	/*
+	 * If we were able to figure out where the extension is,
+	 * slice the path into a base and an extension. Use that to
+	 * calculate urls for different density environments. Set
+	 * values for different environments.
+	 */
+	@if $position != -1 {
+		$ext: str-slice($strpath, $position + 1, $length);
+		$base: str-slice($strpath, 1, $position - 1);
+		$at1x_path: "#{$base}.#{$ext}";
+		$at2x_path: "#{$base}@2x.#{$ext}";
+
+		/*
+		 * Set a base background for 1x environments.
+		 */
+		background: url("#{$at1x_path}") $extras;
+		background-size: $size;
+
+		/*
+		 * Create an @2x-ish media query.
+		 */
+		@media all and (-webkit-min-device-pixel-ratio : 1.5),
+		all and (-o-min-device-pixel-ratio: 3/2),
+		all and (min--moz-device-pixel-ratio: 1.5),
+		all and (min-device-pixel-ratio: 1.5) {
+			background      : url("#{$at2x_path}") $extras;
+			background-size : $size;
+		}
+
+		/*
+		 * Create media queries for all environments that the user has
+		 * provided images for.
+		 */
+		@if $cap >= 2 {
+			@for $env from 2 through $cap {
+				$suffix: "@#{$env}x";
+				@media (-webkit-min-device-pixel-ratio: $env),
+				(min-resolution: $env * 96dpi) {
+					background      : url("#{$base}#{$suffix}.#{$ext}") $extras;
+					background-size : $size;
+				}
+			}
+		}
+
+		/*
+		 * If anything went wrong trying to separate the file from its
+		 * extension, set a background value without doing anything to it.
+		 */
+	} @else {
+		background: url("#{$path}") $extras;
+		background-size: $size;
+	}
+
+}
+
+@mixin slick-gutter($gutter: 30) {
+	.slick-list {
+		margin-left: - px(strip-unit($gutter/2));
+		margin-right: - px(strip-unit($gutter/2));
+	}
+	.slick-slide {
+		padding-left: px(strip-unit($gutter/2));
+		padding-right: px(strip-unit($gutter/2));
+	}
+}
+
+@mixin slick-top-right-arrows($size : 30, $top: 30) {
+	.slick-next,
+	.slick-prev {
+		top: - px(strip-unit($top));
+		transform: translateY(-100%);
+		opacity: 1;
+		width: px(strip-unit($size));
+		height: px(strip-unit($size));
+		&:before {
+			line-height: px(strip-unit($size));
+		}
+	}
+
+	.slick-next {
+		right: 0;
+	}
+
+	.slick-prev {
+		left: auto;
+		right: 0;
+		transform: translate(-120%, -100%);
+	}
+
+}

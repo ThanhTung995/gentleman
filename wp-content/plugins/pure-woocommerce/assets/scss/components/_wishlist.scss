@@ -1,0 +1,131 @@
+//@keyframes ion-spin {
+//	0% {
+//		transform: rotate(0deg);
+//	}
+//	100% {
+//		transform: rotate(359deg);
+//	}
+//}
+
+#yith-wcwl-popup-message {
+	transform: translate(-50%, -50%);
+	margin-left: 0 !important;
+}
+
+.yith-wcwl-add-button {
+	.add_to_wishlist {
+		&:before {
+			content: "\f442";
+			font-family: Ionicons;
+			font-size: 20px;
+			vertical-align: middle;
+			margin-right: 10px;
+			line-height: 1;
+		}
+		&.adding-to-wishlist {
+			&:before {
+				content: "\f29a";
+				animation: ion-spin 1s infinite linear;
+				display: inline-block;
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+.products .yith-wcwl-add-button {
+	.ajax-loading {
+		display: none !important;
+		visibility: hidden !important;
+	}
+}
+
+.yith-wcwl-wishlistexistsbrowse,
+.yith-wcwl-wishlistaddedbrowse {
+	.feedback {
+		display: none;
+	}
+	a {
+		&:before {
+			content: "\f443";
+			font-family: Ionicons;
+			font-size: 20px;
+			vertical-align: middle;
+			margin-right: 10px;
+			line-height: 1;
+		}
+	}
+}
+
+.summary .yith-wcwl-add-to-wishlist {
+	margin-top: 30px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+}
+
+li.product {
+	.yith-wcwl-add-to-wishlist {
+		a {
+			text-align: center;
+			font-size: 0;
+			&:before {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.woocommerce.woocommerce-wishlist {
+	table.wishlist_table {
+		font-size: 100%;
+		@include media($sm) {
+			font-size: 16px;
+		}
+		tr {
+			.product-remove {
+				width: 100%;
+				@include media(568px) {
+					width: 30px;
+					text-align: left;
+				}
+			}
+			.product-thumbnail {
+				text-align: center;
+				a {
+					margin: 0 auto;
+					max-width: 100px;
+				}
+				@include media(568px) {
+					width: 100px;
+				}
+			}
+			.product-name {
+				text-align: center;
+				@include media(568px) {
+					text-align: left;
+				}
+			}
+			td.product-name {
+				@include media(568px) {
+					font-weight: 700;
+				}
+			}
+			.product-stock-status {
+				text-align: center;
+			}
+			.product-add-to-cart {
+				padding: 0;
+				.button {
+					font-size: 14px;
+					line-height: 40px;
+					padding: 0;
+					white-space: nowrap;
+				}
+				@include media(568px) {
+					width: 130px;
+				}
+			}
+		}
+	}
+}

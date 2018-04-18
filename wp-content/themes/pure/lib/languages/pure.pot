@@ -1,0 +1,615 @@
+# Copyright (C) 2018 Pure
+# This file is distributed under the same license as the Pure package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pure\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-content/themes/pure/404.php:31
+msgid "Page not found"
+msgstr ""
+
+#: wp-content/themes/pure/404.php:34
+msgid "Sorry, the page you requested can not be found!"
+msgstr ""
+
+#: wp-content/themes/pure/404.php:41
+msgid "<i class=\"far fa-caret-left\"></i> Back to home"
+msgstr ""
+
+#: wp-content/themes/pure/404.php:59
+msgid "Page"
+msgstr ""
+
+#: wp-content/themes/pure/404.php:80
+msgid "News"
+msgstr ""
+
+#: wp-content/themes/pure/404.php:96
+msgid "Categories"
+msgstr ""
+
+#: wp-content/themes/pure/comments.php:27
+msgid "Comments are closed."
+msgstr ""
+
+#: wp-content/themes/pure/comments.php:41
+msgid "Comments"
+msgstr ""
+
+#: wp-content/themes/pure/comments.php:47
+msgid "%d comments"
+msgstr ""
+
+#: wp-content/themes/pure/page-blank.php:2
+msgid "Blank Page"
+msgstr ""
+
+#: wp-content/themes/pure/searchform.php:16
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: wp-content/themes/pure/lib/init.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: wp-content/themes/pure/lib/init.php:51
+msgid "Mobile Menu"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:14
+msgid "Code"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:21
+msgid "Google Tag Manager ID (GTM-XXXX)"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:22
+msgid "We recommend using Google Tag Manager to manage tag and custom script of you website."
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:30
+msgid "Code before </head>"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:38
+msgid "Code before </body>"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:45
+msgid "Google Analytics code"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:60
+msgid "Livechat code"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:75
+msgid "Facebook Page ID"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/code.php:83
+msgid "Facebook App ID"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/config.php:20
+msgid "VietMoz Site"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/footer.php:14
+msgid "Footer"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/footer.php:21
+msgid "Footer BG"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/footer.php:35
+msgid "Footer Text Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/footer.php:50
+msgid "Footer Heading Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/footer.php:65
+msgid "Footer Link Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/footer.php:80
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/footer.php:95
+msgid "Footer Text Size"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/footer.php:111
+msgid "Footer Heading Size"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/header.php:14
+msgid "Header"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/header.php:21
+msgid "Desktop Logo"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/header.php:34
+msgid "Desktop Logo Width"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/header.php:49
+msgid "Mobile Logo"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/header.php:62
+msgid "Mobile Logo Width"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/header.php:77
+msgid "Top Left"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/header.php:85
+msgid "Top Right"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:14
+msgid "Infomation"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:21
+msgid "Company name"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:28
+msgid "Company Description"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:35
+msgid "Hotline"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:48
+msgid "Work Time"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:61
+msgid "Telephone"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:68
+msgid "Email"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:75
+msgid "Street Address"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:82
+msgid "District"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:89
+msgid "City"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:96
+msgid "Facebook"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:103
+msgid "Youtube"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:110
+msgid "Google Plus"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/info.php:117
+msgid "Instagram"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:15
+msgid "Styling"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:22
+msgid "Primary Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:63
+msgid "Secondary Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:100
+msgid "Text Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:129
+msgid "Heading Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:154
+msgid "Border Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:185
+msgid "Meta Color"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:214
+msgid "Primary BG"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:239
+msgid "Secondary BG"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:264
+msgid "Button Height"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/styling.php:279
+msgid "Button Radius"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:18
+msgid "WooCommerce"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:23
+msgid "General"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:30
+msgid "Terms of Warranty Link"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:37
+msgid "Terms of Return Link"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:42
+msgid "Single"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:49
+msgid "Add to cart text"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:63
+msgid "Add to cart additional text"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:70
+msgid "Purchase help link"
+msgstr ""
+
+#: wp-content/themes/pure/lib/customizer/woocommerce.php:78
+msgid "Promotion"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/formatting.php:77
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/formatting.php:86
+msgid "<i class=\"%3$s\"></i> %1$s, %2$s"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/formatting.php:92, wp-content/themes/pure/lib/views/post.php:116
+msgid "Edit"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/formatting.php:101
+msgid "<i class=\"far fa-reply\"></i> Reply"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/general.php:275
+msgid "Mini cart"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/general.php:287
+msgid "Related Products"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/general.php:294
+msgid "Add to cart"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/markup.php:284, wp-content/themes/pure/lib/views/sidebar.php:19
+msgid "Primary Sidebar"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/markup.php:303, wp-content/themes/pure/lib/functions/widgetize.php:66, wp-content/themes/pure/lib/views/sidebar.php:28
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/markup.php:322
+msgid "Shop Sidebar"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:61
+msgid "Sidebar"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:62
+msgid "Primary sidebar area."
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:67
+msgid "Secondary sidebar area. Not every theme support this."
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:71, wp-content/themes/pure/lib/views/sidebar.php:44
+msgid "Bottom Sidebar"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:72
+msgid "Bottom sidebar area. Not every theme support this."
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:105, wp-content/themes/pure/lib/views/footer.php:70
+msgid "Footer %d"
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:106
+msgid "Footer %d widget area."
+msgstr ""
+
+#: wp-content/themes/pure/lib/functions/widgetize.php:129
+msgid "This is the %s. You can add content to this area by visiting your <a href=\"%s\">Widgets Panel</a> and adding new widgets to this area."
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/featured-post.php:59
+msgid " views"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/post-views-counter.php:58
+msgid "Views"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/post-views-counter.php:101
+msgid "| Views: "
+msgstr ""
+
+#: wp-content/themes/pure/lib/shortcodes/post.php:41
+msgid "ago"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/footer.php:108
+msgid "<div class=\"copyright-content\">Copyright &copy; <span itemprop=\"copyrightYear\">%1$s</span> <span itemprop=\"copyrightHolder\" itemscope itemtype=\"https://schema.org/Person\"><a href=\"%4$s\" title=\"%2$s\" itemprop=\"name\">%2$s</a></span>. Design by <a href=\"%3$s\" title=\"Web Design by VietMoz\">VietMoz</a>.</div>"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/global.php:39
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/global.php:41
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/global.php:45
+msgid "Search Results for: %s"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/global.php:47
+msgid "Error 404: Page not found!"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/menu.php:63
+msgid "Close menu"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:85
+msgid "by "
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:122, wp-content/themes/pure/lib/modules/gallery/views/archive.php:82
+msgid "Read more"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:134
+msgid "Nothing found."
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:168
+msgid "Pages:"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:181
+msgid "Previous page"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:182
+msgid "Next page"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:269
+msgid "Related Posts"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:403
+msgid "Name: John Doe"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:409
+msgid "Email: name@email.com"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:418
+msgid "Website: https://domain.com"
+msgstr ""
+
+#: wp-content/themes/pure/lib/views/post.php:439
+msgid "Type your comments.."
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:18
+msgctxt "Post Type General Name"
+msgid "Galleries"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:19
+msgctxt "Post Type Singular Name"
+msgid "Gallery"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:20, wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:21
+msgid "Gallery"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:47
+msgid "gallery"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:60
+msgctxt "Taxonomy General Name"
+msgid "Gallery Categories"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:61
+msgctxt "Taxonomy Singular Name"
+msgid "Gallery Category"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:62
+msgid "Gallery Category"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/gallery/inc/posttype.php:73
+msgid "gallery-category"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/options.php:142
+msgid "User this shortcode in post/page to display slider: <code>[pure_nivo_slider id=%d]</code>"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:18
+msgctxt "Post Type General Name"
+msgid "Slides"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:19
+msgctxt "Post Type Singular Name"
+msgid "Slide"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:20, wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:21
+msgid "Nivo Slider"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:22
+msgid "Item Archives"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:23
+msgid "Item Attributes"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:24
+msgid "Parent Item:"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:25
+msgid "All Items"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:26
+msgid "Add New Item"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:27
+msgid "Add New"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:28
+msgid "New Item"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:29
+msgid "Edit Item"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:30
+msgid "Update Item"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:31
+msgid "View Item"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:32
+msgid "View Items"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:33
+msgid "Search Item"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:34
+msgid "Not found"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:35
+msgid "Not found in Trash"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:36
+msgid "Featured Image"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:37
+msgid "Set featured image"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:38
+msgid "Remove featured image"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:39
+msgid "Use as featured image"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:40
+msgid "Insert into item"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:41
+msgid "Uploaded to this item"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:42
+msgid "Items list"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:43
+msgid "Items list navigation"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:44
+msgid "Filter items list"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:47
+msgid "Slide"
+msgstr ""
+
+#: wp-content/themes/pure/lib/modules/nivo-slider/inc/posttype.php:48
+msgid "Nivo Slider with beautiful transition."
+msgstr ""

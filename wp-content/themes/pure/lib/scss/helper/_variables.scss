@@ -1,0 +1,50 @@
+$content-width    : 1170px !default;
+$sidebar-width    : 270px !default;
+$gutter-width     : 30px !default;
+
+$primary-color    : #1a93cd;
+$secondary-color  : #313657;
+$text-color       : #656a83;
+$heading-color    : #313656;
+$border-color     : #c7d7e0;
+$meta-color       : #888888;
+
+$primary-bg       : #fff;
+$secondary-bg     : #f4f4f4;
+
+$spacing          : 30px;
+$loop-spacing     : $spacing !default;
+$small-spacing    : $spacing / 2;
+
+$transition       : all 300ms ease;
+$box-shadow       : 0px 10px 50px 0px rgba(84,110,122,0.25 );
+$inner-box-shadow : inset 0 1px 3px rgba(#000, 0.06);
+$border-radius    : 2px;
+$button-box-shadow: 0px 1px 15px 0px rgba(84,110,122,0.4);
+
+$xs               : 568px !default;
+$xs-min           : $xs !default;
+$phone            : $xs-min !default;
+
+// Small screen / tablet
+$sm               : 768px !default;
+$sm-min           : $sm !default;
+$tablet           : $sm-min !default;
+
+// Medium screen / desktop
+$md               : 992px !default;
+$md-min           : $md !default;
+$desktop          : $md-min !default;
+
+// Large screen / wide desktop
+$lg               : 1200px !default;
+$lg-min           : $lg !default;
+$lg-desktop       : $lg-min !default;
+$max-width        : $lg;
+
+// So media queries don't overlap when required, provide a maximum
+$xs-max           : ($sm-min - 1) !default;
+$sm-max           : ($md-min - 1) !default;
+$md-max           : ($lg-min - 1) !default;
+
+@import "../../../../config";
